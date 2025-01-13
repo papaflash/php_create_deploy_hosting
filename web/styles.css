@@ -63,3 +63,18 @@ form button {
 form button:hover {
     background-color: #45a049;
 }
+
+.hidden{
+    display: none;
+}
+
+.container-span{
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.user-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
