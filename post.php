@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
+session_start();
+
+$_SESSION["username"] = $_POST['username'];
 
 header('location: index.php');
 
-$_SESSION["username"] = $_POST['username'];
-session_start();
+
